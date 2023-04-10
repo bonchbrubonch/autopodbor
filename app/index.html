@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Крутящий Момент - Подбор автомобилей по доступным ценам</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/dest/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/dest/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/dest/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/dest/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/app.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="main" class="header" style="background-image: url('images/dest/content/header-bg.jpg');">
+    <div class="header__top-wrapper">
+      <div class="header__top-container container">
+        <div class="header__logo">
+          <a href="#">
+            <img src="images/dest/logo.png" alt="">
+          </a>
+        </div>
+        <a href="tel:+88129257997" class="header__btn mob">
+          8(812)925-79-97
+        </a>
+        <nav class="header__menu-nav">
+          <button class="menu__btn">
+            <span class="menu__btn-line"></span>
+          </button>
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="#main" class="header__menu-link">
+                Главная
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#about" class="header__menu-link men2">
+                О нас
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#plus" class="header__menu-link men3">
+                Услуги
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#excellence" class="header__menu-link men4">
+                Преимущества
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#service" class="header__menu-link">
+                Доп. услуги
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#price" class="header__menu-link">
+                Цены
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#reviews" class="header__menu-link">
+                Отзывы
+              </a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#contacts" class="header__menu-link">
+                Контакты
+              </a>
+            </li>
+            <li class="header__menu-item btn">
+              <a href="tel:+88129257997" class="header__btn">
+                8(812)925-79-97
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header__inner">
+      <div class="header__bottom-container container">
+        <div class="header__info">
+          <div class="header__info-title title">
+            Автоподбор
+          </div>
+          <div class="header__info-text">
+            Квалифицированная помощь на рынке автомобилей с пробегом. Подберем лучший вариант по вашим требованиям. Даем гарантию на подобранные автомобили. 
+          </div>
+          <button class="header__info-btn button" data-fancybox data-src="#recall-1">
+            <svg width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.04 9.96C5.416 8.338 5.05 6.715 4.967 6.065a.583.583 0 01.167-.488l1.313-1.312a.586.586 0 00.083-.726L4.44.293a.586.586 0 00-.76-.214L.324 1.66a.583.583 0 00-.322.582c.176 1.671.904 5.778 4.94 9.814 4.036 4.037 8.143 4.765 9.814 4.94a.583.583 0 00.583-.322l1.58-3.356a.586.586 0 00-.212-.758l-3.247-2.09a.586.586 0 00-.725.082l-1.313 1.313a.583.583 0 01-.487.167c-.65-.082-2.273-.449-3.896-2.072z"
+                fill="#fff" />
+              <path
+                d="M13.483 9.086a.586.586 0 01-.587-.586A4.402 4.402 0 008.5 4.104a.586.586 0 010-1.173 5.575 5.575 0 015.569 5.57.586.586 0 01-.586.585z"
+                fill="#fff" />
+              <path
+                d="M16.414 9.086a.586.586 0 01-.587-.586A7.336 7.336 0 008.5 1.172.586.586 0 118.5 0 8.51 8.51 0 0117 8.5a.586.586 0 01-.586.586z"
+                fill="#fff" />
+            </svg>
+            Перезвоните мне
+          </button>
+        </div>
+        <div class="header__photo">
+          <div class="header__photo-img">
+            <img src="images/dest/content/header.png" alt="">
+          </div>
+          <div class="header__photo-name">
+            Наш эксперт:&nbsp; <span>Артур</span>
+          </div>
+          <div class="header__photo-expirience">
+            Опыт работы:&nbsp; <span>20 лет</span>
+          </div>
+          <a href="#" class="header__photo-inst">
+            <img src="images/dest/icons/header-inst.svg" alt="">
+          </a>
+          <a href="#" class="header__photo-play">
+            <img src="images/dest/icons/header-play.svg" alt="">
+          </a>
+          <div class="header__photo-location">
+           Находимся в г. Санкт-Петербург
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="plus" class="plus">
+    <div class="plus__container container">
+      <div class="plus__inner">
+        <div class="plus__box">
+          <div class="plus__item" data-fancybox data-src="#check6">
+            <div class="plus__item-img">
+              <img src="images/dest/icons/plus1.svg" alt="">
+            </div>
+            <div class="plus__item-title">
+              Разовый осмотр
+            </div>
+            <div class="plus__item-text">
+              Комплексная диагностика <span>одного</span>  выбранного вами автомобиля.
+            </div>
+            <div class="plus__item-i">
+              <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#fff" />
+                <path
+                  d="M10.496 8.862c-.58 0-.992.471-.992 1.051v3.576c0 .58.411 1.051.992 1.051.58 0 .992-.47.992-1.051V9.913c0-.58-.412-1.051-.992-1.051zm.004-2.734a1.087 1.087 0 100 2.174 1.087 1.087 0 000-2.174z"
+                  fill="#000" />
+                <path
+                  d="M10.5 4A6.507 6.507 0 004 10.5c0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5S14.084 4 10.5 4zm0 11.583A5.089 5.089 0 015.417 10.5 5.089 5.089 0 0110.5 5.417a5.088 5.088 0 015.082 5.083 5.088 5.088 0 01-5.082 5.083z"
+                  fill="#000" />
+              </svg>
+            </div>
+          </div>
+          <div class="plus__item" data-fancybox data-src="#check5">
+            <div class="plus__item-img">
+              <img src="images/dest/icons/plus2.svg" alt="">
+            </div>
+            <div class="plus__item-title">
+              Подбор под ключ
+            </div>
+            <div class="plus__item-text">
+              Отсечем лишнее – выберем лучшее!
+            </div>
+            <div class="plus__item-i">
+              <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#fff" />
+                <path
+                  d="M10.496 8.862c-.58 0-.992.471-.992 1.051v3.576c0 .58.411 1.051.992 1.051.58 0 .992-.47.992-1.051V9.913c0-.58-.412-1.051-.992-1.051zm.004-2.734a1.087 1.087 0 100 2.174 1.087 1.087 0 000-2.174z"
+                  fill="#000" />
+                <path
+                  d="M10.5 4A6.507 6.507 0 004 10.5c0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5S14.084 4 10.5 4zm0 11.583A5.089 5.089 0 015.417 10.5 5.089 5.089 0 0110.5 5.417a5.088 5.088 0 015.082 5.083 5.088 5.088 0 01-5.082 5.083z"
+                  fill="#000" />
+              </svg>
+            </div>
+          </div>
+          <div class="plus__item" data-fancybox data-src="#check4">
+            <div class="plus__item-img">
+              <img src="images/dest/icons/plus3.svg" alt="">
+            </div>
+            <div class="plus__item-title">
+              Эксперт на день
+            </div>
+            <div class="plus__item-text">
+              Неограниченное количество осмотренных авто за один день.
+            </div>
+            <div class="plus__item-i">
+              <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#fff" />
+                <path
+                  d="M10.496 8.862c-.58 0-.992.471-.992 1.051v3.576c0 .58.411 1.051.992 1.051.58 0 .992-.47.992-1.051V9.913c0-.58-.412-1.051-.992-1.051zm.004-2.734a1.087 1.087 0 100 2.174 1.087 1.087 0 000-2.174z"
+                  fill="#000" />
+                <path
+                  d="M10.5 4A6.507 6.507 0 004 10.5c0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5S14.084 4 10.5 4zm0 11.583A5.089 5.089 0 015.417 10.5 5.089 5.089 0 0110.5 5.417a5.088 5.088 0 015.082 5.083 5.088 5.088 0 01-5.082 5.083z"
+                  fill="#000" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="plus__box">
+          <div class="plus__item" data-fancybox data-src="#check3">
+            <div class="plus__item-img">
+              <img src="images/dest/icons/plus4.svg" alt="">
+            </div>
+            <div class="plus__item-title">
+              Проверка двигателя эндоскопом
+            </div>
+            <div class="plus__item-text">
+              Аппаратная диагностика состояния двигателя внутри.
+            </div>
+            <div class="plus__item-i">
+              <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#fff" />
+                <path
+                  d="M10.496 8.862c-.58 0-.992.471-.992 1.051v3.576c0 .58.411 1.051.992 1.051.58 0 .992-.47.992-1.051V9.913c0-.58-.412-1.051-.992-1.051zm.004-2.734a1.087 1.087 0 100 2.174 1.087 1.087 0 000-2.174z"
+                  fill="#000" />
+                <path
+                  d="M10.5 4A6.507 6.507 0 004 10.5c0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5S14.084 4 10.5 4zm0 11.583A5.089 5.089 0 015.417 10.5 5.089 5.089 0 0110.5 5.417a5.088 5.088 0 015.082 5.083 5.088 5.088 0 01-5.082 5.083z"
+                  fill="#000" />
+              </svg>
+            </div>
+          </div>
+          <div class="plus__item" data-fancybox data-src="#check1">
+            <div class="plus__item-img">
+              <img src="images/dest/icons/plus5.svg" alt="">
+            </div>
+            <div class="plus__item-title">
+              Приём нового авто
+            </div>
+            <div class="plus__item-text">
+              Исключим все факторы риска при покупке нового авто.
+            </div>
+            <div class="plus__item-i">
+              <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#fff" />
+                <path
+                  d="M10.496 8.862c-.58 0-.992.471-.992 1.051v3.576c0 .58.411 1.051.992 1.051.58 0 .992-.47.992-1.051V9.913c0-.58-.412-1.051-.992-1.051zm.004-2.734a1.087 1.087 0 100 2.174 1.087 1.087 0 000-2.174z"
+                  fill="#000" />
+                <path
+                  d="M10.5 4A6.507 6.507 0 004 10.5c0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5S14.084 4 10.5 4zm0 11.583A5.089 5.089 0 015.417 10.5 5.089 5.089 0 0110.5 5.417a5.088 5.088 0 015.082 5.083 5.088 5.088 0 01-5.082 5.083z"
+                  fill="#000" />
+              </svg>
+            </div>
+          </div>
+          <div class="plus__item" data-fancybox data-src="#check">
+            <div class="plus__item-img">
+              <img src="images/dest/icons/plus6.svg" alt="">
+            </div>
+            <div class="plus__item-title">
+              Восстановление VIN
+            </div>
+            <div class="plus__item-text">
+              Мы профессионально очищаем VIN/номер рамы/двигателя от коррозии
+            </div>
+            <div class="plus__item-i">
+              <svg width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#fff" />
+                <path
+                  d="M10.496 8.862c-.58 0-.992.471-.992 1.051v3.576c0 .58.411 1.051.992 1.051.58 0 .992-.47.992-1.051V9.913c0-.58-.412-1.051-.992-1.051zm.004-2.734a1.087 1.087 0 100 2.174 1.087 1.087 0 000-2.174z"
+                  fill="#000" />
+                <path
+                  d="M10.5 4A6.507 6.507 0 004 10.5c0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5S14.084 4 10.5 4zm0 11.583A5.089 5.089 0 015.417 10.5 5.089 5.089 0 0110.5 5.417a5.088 5.088 0 015.082 5.083 5.088 5.088 0 01-5.082 5.083z"
+                  fill="#000" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clarification">
+    <div class="clarification__container container">
+      <div class="clarification__inner" style="background-image: url('images/dest/content/clarification1.jpg');">
+        <div class="clarification__text">
+          Узнайте точную цену подбора под ваши требования
+        </div>
+        <button class="clarification__btn button" data-fancybox data-src="#recall-1">
+          <svg width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M7.04 9.96C5.416 8.338 5.05 6.715 4.967 6.065a.583.583 0 01.167-.488l1.313-1.312a.586.586 0 00.083-.726L4.44.293a.586.586 0 00-.76-.214L.324 1.66a.583.583 0 00-.322.582c.176 1.671.904 5.778 4.94 9.814 4.036 4.037 8.143 4.765 9.814 4.94a.583.583 0 00.583-.322l1.58-3.356a.586.586 0 00-.212-.758l-3.247-2.09a.586.586 0 00-.725.082l-1.313 1.313a.583.583 0 01-.487.167c-.65-.082-2.273-.449-3.896-2.072z"
+              fill="#fff" />
+            <path
+              d="M13.483 9.086a.586.586 0 01-.587-.586A4.402 4.402 0 008.5 4.104a.586.586 0 010-1.173 5.575 5.575 0 015.569 5.57.586.586 0 01-.586.585z"
+              fill="#fff" />
+            <path
+              d="M16.414 9.086a.586.586 0 01-.587-.586A7.336 7.336 0 008.5 1.172.586.586 0 118.5 0 8.51 8.51 0 0117 8.5a.586.586 0 01-.586.586z"
+              fill="#fff" />
+          </svg>
+          Перезвоните мне
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="excellence" class="excellence">
+    <div class="excellence__container container">
+      <div class="excellence__info">
+        <div class="excellence__info-title title">
+          Наши преимущества
+        </div>
+        <div class="excellence__info-text">
+          Специалисты с большим опытом работы, ответственный подход каждого сотрудника компании, система контроля качества, техническая гарантия на подобранный автомобиль, бесплатное сопровождение клиентов.
+        </div>
+      </div>
+      <div class="excellence__inner-info">
+        <div class="excellence__box">
+          <div class="excellence__item">
+            <div class="excellence__item-img">
+              <img src="images/dest/icons/excellence1.svg" alt="">
+            </div>
+            <div class="excellence__item-title">
+              Гарантии
+            </div>
+            <div class="excellence__item-text">
+              Наш специалист подберет вам <span>самые лучшие решения</span> на рынке
+            </div>
+          </div>
+          <div class="excellence__item">
+            <div class="excellence__item-img">
+              <img src="images/dest/icons/excellence2.svg" alt="">
+            </div>
+            <div class="excellence__item-title">
+              Выгода
+            </div>
+            <div class="excellence__item-text">
+              Мы <span> не берем процент</span> <br> за торг при покупке машины
+            </div>
+          </div>
+          <div class="excellence__item">
+            <div class="excellence__item-img">
+              <img src="images/dest/icons/excellence3.svg" alt="">
+            </div>
+            <div class="excellence__item-title">
+              Бесплатно
+            </div>
+            <div class="excellence__item-text">
+              Бесплатная энжоскопия 1 авто <br> при заказе <span>“Подбор под ключ”</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="excellence__box">
+          <div class="excellence__item">
+            <div class="excellence__item-img">
+              <img src="images/dest/icons/excellence4.svg" alt="">
+            </div>
+            <div class="excellence__item-title">
+              Криминалист
+            </div>
+            <div class="excellence__item-text">
+              Эксперт кримминалист <br> <span>гарантирует</span> юридическую чистоту
+            </div>
+          </div>
+          <div class="excellence__item">
+            <div class="excellence__item-img">
+              <img src="images/dest/icons/excellence5.svg" alt="">
+            </div>
+            <div class="excellence__item-title">
+              Опыт
+            </div>
+            <div class="excellence__item-text">
+              Опыт работы нашего специалиста <span>более 20 лет</span> в автобизнесе
+            </div>
+          </div>
+          <div class="excellence__item">
+            <div class="excellence__item-img">
+              <img src="images/dest/icons/excellence6.svg" alt="">
+            </div>
+            <div class="excellence__item-title">
+              Торг
+            </div>
+            <div class="excellence__item-text">
+              В 90% случаев <span>наши</span> <br> <span>услуги окупаются</span> с торга
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about__container container">
+      <div class="about__inner">
+        <div class="about__info">
+          <div class="about__info-title title">
+            О нас
+          </div>
+          <div class="about__info-text">
+           <span>Крутящий момент – это компания, предоставляющая все виды услуг по подбору автомобилей, а также дополнительные услуги анализирующие состояние отдельных узлов и агрегатов.</span> 
+           <span>Рынок автомобилей с пробегом это сложный и не предсказуемый механизм со множеством «подводных» камней, в виде недобросовестных продавцов, «серых» салонов, перекупов и просто дельцов, желающих получить легкую и не опытную добычу, и даже реальные владельцы не всегда имеют полное понимание о состоянии своего автомобиля.</span>
+           <span>Многолетний опыт, профессиональный подход, команда специалистов с реальным опытом работы, постоянный анализ рынка, специализированное оборудование – залог успешной работы нашей компании в интересах клиентов.</span>
+          </div>
+          <button class="about__info-btn button" data-fancybox data-src="#recall-2">
+            <svg width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.404 15.484L12.4 11.276a6.886 6.886 0 001.593-4.412C13.994 3.079 10.948 0 7.204 0S.414 3.08.414 6.864s3.046 6.863 6.79 6.863a6.667 6.667 0 003.89-1.242l4.033 4.24a.876.876 0 001.252.025.903.903 0 00.025-1.266zm-9.2-13.693c2.767 0 5.019 2.275 5.019 5.073 0 2.797-2.252 5.073-5.019 5.073-2.767 0-5.019-2.276-5.019-5.073 0-2.798 2.252-5.073 5.019-5.073z"
+                fill="#fff" />
+            </svg>
+            Заказать подбор
+          </button>
+        </div>
+        <div class="about__slider slider-about">
+          <a href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about1.jpg" alt="">
+          </a>
+          <div href="images/dest/content/about2.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about2.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about3.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about3.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+          <a href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about5.jpg" alt="">
+          </a>
+          <div href="images/dest/content/about6.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about6.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about7.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about7.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+          <a href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about1.jpg" alt="">
+          </a>
+          <div href="images/dest/content/about2.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about2.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about3.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about3.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+          <a href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about1.jpg" alt="">
+          </a>
+          <div href="images/dest/content/about2.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about2.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about3.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about3.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+          <a href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about1.jpg" alt="">
+          </a>
+          <div href="images/dest/content/about2.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about2.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about3.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about3.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+          <a href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about1.jpg" alt="">
+          </a>
+          <div href="images/dest/content/about2.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about2.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about3.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about3.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+          <a href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about1.jpg" alt="">
+          </a>
+          <div href="images/dest/content/about2.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about2.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about3.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about3.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+          <div href="https://www.youtube.com/watch?v=L_LUpnjgPso" class="slider-about__item about-video" data-fancybox="about">
+            <img src="images/dest/content/about1.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about2.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about2.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about3.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about3.jpg" alt="">
+          </div>
+          <div href="images/dest/content/about4.jpg" class="slider-about__item" data-fancybox="about">
+            <img src="images/dest/content/about4.jpg" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="service" style="background-image: url('images/dest/content/service.png');">
+    <div class="service__container container">
+      <div class="service__title title">
+        Широкий спектр услуг
+      </div>
+      <div class="service__text">
+        Автомобиль – это технически очень сложное устройство, иногда недостаточно стандартного «мониторингового» анализа для определения точного состояния автомобиля, поэтому наша компания так же оказывает целый ряд дополнительных услуг, направленных на определение и локализацию проблемных участков.
+      </div>
+      <div class="service__slider slider-service">
+        <div class="slider-service__item-wrapper">
+          <div class="slider-service__item">
+            <div class="slider-service__img">
+              <img src="images/dest/content/service1.jpg" alt="">
+            </div>
+            <div class="slider-service__box">
+              <div class="slider-service__title">
+                Проверка утечек в цилиндре (лик-тест)
+              </div>
+              <div class="slider-service__text">
+                <span>Проверка утечек в цилиндре (лик-тест)</span>  - операция позволяющая определить износ поршневых компрессионных колец, повреждение клапанов и выявить трещины в цилиндре или головке блока. Данный метод исследования очень просто определяет места утечек. Производится только в условиях автосервиса.
+              </div>
+              <div class="slider-service__num">
+                <div class="slider-service__price">
+                  Цена от : <span>От 2 000 ₽</span>
+                </div>
+                <div class="slider-service__num-text">
+                  Cроки от : <span>По договоренности</span> 
+                </div>
+              </div>
+              <div class="slider-service__btn" data-fancybox data-src="#recall-2">
+                Заказать услугу
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-service__item-wrapper">
+          <div class="slider-service__item">
+            <div class="slider-service__img">
+              <img src="images/dest/content/service1.jpg" alt="">
+            </div>
+            <div class="slider-service__box">
+              <div class="slider-service__title">
+                Тест утечки СО2 
+              </div>
+              <div class="slider-service__text">
+                <span>Тест утечки СО2</span> - позволяет проверить содержание углекислого газа в охлаждающей жидкости. Наличие выхлопных газов в охлаждающей жидкости определить, особенно на ранних стадиях, достаточно тяжело. Для этого существует тестер СО (углекислый газ) или как его называют шприц СО, при помощи которого в течении нескольких минут можно определить герметичность системы.
+              </div>
+              <div class="slider-service__num">
+                <div class="slider-service__price">
+                  Цена от : <span>2 000 ₽</span>
+                </div>
+                <div class="slider-service__num-text">
+                  Cроки от : <span>По договоренности</span> 
+                </div>
+              </div>
+              <div class="slider-service__btn" data-fancybox data-src="#recall-2">
+                Заказать услугу
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-service__item-wrapper">
+          <div class="slider-service__item">
+            <div class="slider-service__img">
+              <img src="images/dest/content/service1.jpg" alt="">
+            </div>
+            <div class="slider-service__box">
+              <div class="slider-service__title">
+                Проверка компрессии двигателя 
+              </div>
+              <div class="slider-service__text">
+                <span>Проверка компрессии двигателя</span> - это операция, в ходе которой измеряется процент сжатия поршнем воздуха. Результаты проверки позволяют сделать выводы о состоянии и степени износа двигателя. Измерения производятся специальным прибором — компрессометром. Операция осуществляется при выкрученных всех свечах и отключенной подаче топлива, а так же исправном стартере и полностью заряженном аккумуляторе.
+              </div>
+              <div class="slider-service__num">
+                <div class="slider-service__price">
+                  Цена от : <span>2 000 ₽</span>
+                </div>
+                <div class="slider-service__num-text">
+                  Cроки от : <span>По договоренности</span> 
+                </div>
+              </div>
+              <div class="slider-service__btn" data-fancybox data-src="#recall-2">
+                Заказать услугу
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-service__item-wrapper">
+          <div class="slider-service__item">
+            <div class="slider-service__img">
+              <img src="images/dest/content/service1.jpg" alt="">
+            </div>
+            <div class="slider-service__box">
+              <div class="slider-service__title">
+                Очистка VIN номера на кузовных элементах 
+              </div>
+              <div class="slider-service__text">
+                <span>Очистка VIN номера на кузовных элементах</span>  – ответственная процедура, позволяющая в 90% случаев избежать прохождение государственной экспертизы на предмет оригинальности утраченного или сгнившего VIN номера. Производится очистка с применением специальной технологии и химии не повреждающей структуры металла, а только удаляет образовавшийся слой ржавчины.
+              </div>
+              <div class="slider-service__num">
+                <div class="slider-service__price">
+                  Цена от : <span>3 000 ₽</span>
+                </div>
+                <div class="slider-service__num-text">
+                  Cроки от : <span>По договоренности</span> 
+                </div>
+              </div>
+              <div class="slider-service__btn" data-fancybox data-src="#recall-2">
+                Заказать услугу
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-service__item-wrapper">
+          <div class="slider-service__item">
+            <div class="slider-service__img">
+              <img src="images/dest/content/service1.jpg" alt="">
+            </div>
+            <div class="slider-service__box">
+              <div class="slider-service__title">
+                Очистка номера двигателя
+              </div>
+              <div class="slider-service__text">
+                <span>Очистка номера двигателя</span> –  каждый автомобиль при производстве оснащается определенной моделью двигателя, серия и номер которого выбивается на корпусе блока цилиндров. Разница температур, конденсат и время часто проводят к коррозии номера, что приводит к частичной или полной не читаемости символов. Благодаря технологии электролиза мы можем очистить коррозированный номер двигателя.
+              </div>
+              <div class="slider-service__num">
+                <div class="slider-service__price">
+                  Цена от : <span>3 000₽</span>
+                </div>
+                <div class="slider-service__num-text">
+                  Cроки от : <span>По договоренности</span> 
+                </div>
+              </div>
+              <div class="slider-service__btn" data-fancybox data-src="#recall-2">
+                Заказать услугу
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-service__item-wrapper">
+          <div class="slider-service__item">
+            <div class="slider-service__img">
+              <img src="images/dest/content/service1.jpg" alt="">
+            </div>
+            <div class="slider-service__box">
+              <div class="slider-service__title">
+                Очистка номера рамы (шасси)
+              </div>
+              <div class="slider-service__text">
+                <span>Очистка номера рамы (шасси)</span> – номер расположен на открытых элементах рамы (шасси) и максимально подвержен воздействия внешней среды, что приводит к проблеме возрастной коррозированности и деградации металла, и как следствие не читаемости отдельно взятых символов или номера в целом. Технология электролиза позволяет специалистам нашей компании бережно очистить номер и избавить автовладельца от траты времени и нервов на прохождении государственной экспертизы.
+              </div>
+              <div class="slider-service__num">
+                <div class="slider-service__price">
+                  Цена от : <span>3 000 ₽</span>
+                </div>
+                <div class="slider-service__num-text">
+                  Cроки от : <span>По договоренности</span> 
+                </div>
+              </div>
+              <div class="slider-service__btn" data-fancybox data-src="#recall-2">
+                Заказать услугу
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-service__item-wrapper">
+          <div class="slider-service__item">
+            <div class="slider-service__img">
+              <img src="images/dest/content/service1.jpg" alt="">
+            </div>
+            <div class="slider-service__box">
+              <div class="slider-service__title">
+                Видеоэндоскопия катализатора
+              </div>
+              <div class="slider-service__text">
+                <span>Видеоэндоскопия катализатора</span>  – основой катализатора являются металлические и керамические соты, на стенки которых наносится микрослой из палладия и родия или иридия в зависимости от модели автомобиля. Некачественное топливо основная причина, приводящая катализатор к разрушению и выходу их строя. Поэтому своевременная диагностика сможет уберечь ваш автомобиль от дорогостоящего ремонта в будущем.
+              </div>
+              <div class="slider-service__num">
+                <div class="slider-service__price">
+                  Цена от : <span>2 000 ₽</span>
+                </div>
+                <div class="slider-service__num-text">
+                  Cроки от : <span>По договоренности</span> 
+                </div>
+              </div>
+              <div class="slider-service__btn" data-fancybox data-src="#recall-2">
+                Заказать услугу
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="price" class="price">
+    <div class="price__container container">
+      <div class="price__title title">
+        Цены
+      </div>
+      <div class="price__subtitle line">
+        Мы гарантируем высокое качество выполненных работ, предоставляем юридические и технические гарантии при абсолютно адекватном ценообразовании. 
+      </div>
+    </div>
+    <div class="price__box-wrapper">
+      <div class="price__box">
+        <div class="price__container container">
+          <div class="price__box-title">
+            Разовый осмотр
+          </div>
+          <ul class="price__list">
+            <li class="price__item"> Легковой автомобиль<span>3000₽.</span></li>
+            <li class="price__item">Кроссовер / Паркетник / Внедорожник<span>5000₽.</span></li>
+            <li class="price__item">Авто сегмента “Элит” / Спорткары <span>По договоренности.</span></li>
+            <li class="price__item">Offroad <span>По договоренности.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="price__box">
+        <div class="price__container container">
+          <div class="price__box-title line">
+            Подбор под ключ
+          </div>
+          <ul class="price__list">
+            <li class="price__item"> Авто до 500 тыс. руб <span>20000₽.</span></li>
+            <li class="price__item">500 тыс. руб - 1 млн. руб <span>25000₽.</span></li>
+            <li class="price__item">1 млн. - 2 млн. руб <span>30000₽.</span></li>
+            <li class="price__item">От 2 млн. руб <span>35000₽.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="price__box">
+        <div class="price__container container">
+          <div class="price__box-title line">
+            Эксперт на день
+          </div>
+          <ul class="price__list">
+            <li class="price__item"> Смена 8 часов <span>10000₽.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="price__box">
+        <div class="price__container container">
+          <div class="price__box-title line">
+            Эндоскопия двигателя
+          </div>
+          <ul class="price__list">
+            <li class="price__item">4x цилиндров* <span>3000₽.</span></li>
+            <li class="price__item">6x цилиндров* <span>4000₽.</span></li>
+            <li class="price__item">8x цилиндров* <span> 5000₽.</span></li>
+            <li class="price__item">12x цилиндров* <span>6000₽.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="price__container container">
+        <div class="price__subtitle two">
+          При отсутствии свободного доступа к цилиндрам, снятие коллекторов и разбор каких либо узлов - <span>
+            оплачивается отдельно</span>
+        </div>
+      </div>
+    </div>
+    <div class="price__box-wrap">
+      <div class="price__box-inner container">
+        <div class="price__box">
+          <div class="price__box-title line">
+            Очистка и восстановление
+          </div>
+          <ul class="price__list">
+            <li class="price__item">Номера двигателя <span> 3000₽.</span></li>
+            <li class="price__item">VIN-номера <span>3000₽.</span></li>
+            <li class="price__item">Номера рамы <span> от 3000₽.</span></li>
+          </ul>
+        </div>
+        <div class="price__box-col">
+          <div class="price__box">
+            <div class="price__box-title line">
+              Прием нового авто
+            </div>
+            <ul class="price__list">
+              <li class="price__item">Новый авто <span> 3000₽.</span></li>
+            </ul>
+          </div>
+          <div class="price__box">
+            <div class="price__box-title line">
+              Осмотр на сервисе
+            </div>
+            <ul class="price__list">
+              <li class="price__item">Любой авто <span> 3000₽.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="price__box sup">
+      <div class="price__container container">
+        <div class="price__box-title line">
+          Оценка вашего автомобиля перед продажей
+        </div>
+        <ul class="price__list">
+          <li class="price__item"> Любой авто <span>3000₽.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="clarification subprice">
+    <div class="clarification__container container">
+      <div class="clarification__inner" style="background-image: url('images/dest/content/autopodbor-bg.jpg');">
+        <div class="clarification__text">
+          Хотите уточнить о услугах нашего подбора?
+        </div>
+        <button class="clarification__btn button" data-fancybox data-src="#recall-1">
+          <svg width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M7.04 9.96C5.416 8.338 5.05 6.715 4.967 6.065a.583.583 0 01.167-.488l1.313-1.312a.586.586 0 00.083-.726L4.44.293a.586.586 0 00-.76-.214L.324 1.66a.583.583 0 00-.322.582c.176 1.671.904 5.778 4.94 9.814 4.036 4.037 8.143 4.765 9.814 4.94a.583.583 0 00.583-.322l1.58-3.356a.586.586 0 00-.212-.758l-3.247-2.09a.586.586 0 00-.725.082l-1.313 1.313a.583.583 0 01-.487.167c-.65-.082-2.273-.449-3.896-2.072z"
+              fill="#fff" />
+            <path
+              d="M13.483 9.086a.586.586 0 01-.587-.586A4.402 4.402 0 008.5 4.104a.586.586 0 010-1.173 5.575 5.575 0 015.569 5.57.586.586 0 01-.586.585z"
+              fill="#fff" />
+            <path
+              d="M16.414 9.086a.586.586 0 01-.587-.586A7.336 7.336 0 008.5 1.172.586.586 0 118.5 0 8.51 8.51 0 0117 8.5a.586.586 0 01-.586.586z"
+              fill="#fff" />
+          </svg>
+          Перезвоните мне
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews">
+    <div class="reviews__container container">
+      <div class="reviews__title title line">
+        Отзывы
+      </div>
+      <div class="reviews__slider slider-reviews">
+        <div class="slider-reviews__item-wrapper">
+          <div class="slider-reviews__item">
+            <div class="slider-reviews__img-wrapper">
+              <a href="images/dest/content/reviews1.MP4" class="slider-reviews__img" data-fancybox>
+                <img src="images/dest/content/play.png" alt="">
+              </a>
+            </div>
+            <div class="slider-reviews__box">
+              <div class="slider-reviews__title">
+                Ольга
+              </div>
+              <div class="slider-reviews__text">
+                Спокойно, уверенно человек делает своё дело. Мы были из другого города, подбирали автомобиль сами, решили обратиться и не пожалели. Вечером осмотрели несколько авто и нужный нам был рекомендован Артуром и учитывая все рекомендации, плюсы и минусы авто (Все-таки он бу) автомобиль приобретен, доехал до места своего назначения, дообслужен, успешно эксплуатируется! Поскольку к Артуру обращались первый раз и не через знакомых, просто по объявлению, были сомнения, всякое бывает. Но теперь сомнений нет, рекомендую на 100% данного эксперта! Эксперт никуда не торопиться, пунктуален, чувствуется опыт работы, а не просто "бла-бла". Без обращения к Артуру, сами б взяли первый авто и потом уже стало понятно - приобрели б авто с пробегом больше на 70 тыс км и скорыми проблемами с двигателем. В итоге куплен именно автомобиль той марки, который планировали, с реальным пробегом, в родной краске, без капитальных технических проблем!
+              </div>
+              <div class="slider-reviews__info">
+                <div class="slider-reviews__info-text">
+                  Услуга:<span> Подбор авто 500 тыс. руб - 1 млн. руб</span>
+                </div>
+                <div class="slider-reviews__info-date">
+                  Дата: <span>09.08.2019</span>
+                </div>
+                <div class="slider-reviews__info-star">
+                  Оценка:
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-reviews__item-wrapper">
+          <div class="slider-reviews__item">
+            <div class="slider-reviews__img-wrapper">
+              <a href="#" class="slider-reviews__img">
+                <img src="images/dest/content/reviews.jpg" alt="">
+              </a>
+            </div>
+            <div class="slider-reviews__box">
+              <div class="slider-reviews__title">
+                Вадим
+              </div>
+              <div class="slider-reviews__text">
+                Вот и прошел год с того момента как я при содействии Артура нашел себе автомобиль.Благодарю,и даже не за то что помогли мне выбрать машину,а за то что отговорили от покупки тех "вёдер",которые мы с вами смотрели,и за которые я так порывался отдать свои деньги)))Успехов вам.
+              </div>
+              <div class="slider-reviews__info">
+                <div class="slider-reviews__info-text">
+                  Услуга:<span> Подбор авто до 500 т. руб</span>
+                </div>
+                <div class="slider-reviews__info-date">
+                  Дата: <span>04.03.2021</span>
+                </div>
+                <div class="slider-reviews__info-star">
+                  Оценка:
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-reviews__item-wrapper">
+          <div class="slider-reviews__item">
+            <div class="slider-reviews__img-wrapper">
+              <a href="#" class="slider-reviews__img">
+                <img src="images/dest/content/reviews.jpg" alt="">
+              </a>
+            </div>
+            <div class="slider-reviews__box">
+              <div class="slider-reviews__title">
+                Стас
+              </div>
+              <div class="slider-reviews__text">
+                Мастер просто супер, съездил всё проверил и выдал результаты в течении часа помимо этого дал объективную оценку автомобиля, не смотря на глубокие убеждения автосалона "Volkswagen Сигма Моторс" что с машиной всё порядке и она в идеальном состоянии, по приезду мастера она оказалась всё таки битой и не просто, а во весь лонжерон со смещением геометрии. Для меня урок для вас моё мнение - не следует покупать с авто с автосалонов со слов менеджера так как сказать можно всё что угодно а факта не избежать. . .
+              </div>
+              <div class="slider-reviews__info">
+                <div class="slider-reviews__info-text">
+                  Услуга:<span> Разовый осмотр</span>
+                </div>
+                <div class="slider-reviews__info-date">
+                  Дата: <span>10.06.2020</span>
+                </div>
+                <div class="slider-reviews__info-star">
+                  Оценка:
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-reviews__item-wrapper">
+          <div class="slider-reviews__item">
+            <div class="slider-reviews__img-wrapper">
+              <a href="#" class="slider-reviews__img">
+                <img src="images/dest/content/reviews.jpg" alt="">
+              </a>
+            </div>
+            <div class="slider-reviews__box">
+              <div class="slider-reviews__title">
+                Дмитрий
+              </div>
+              <div class="slider-reviews__text">
+                Нашёл на авито интересующий меня Рено симбол в Питере (сам я - в Москве), нашёл на авито Артура, попросил съездить оценить состояние машины, прикинуть вложения. Артур оперативно сам договорился с хозяином, посмотрел, рассказал мне в деталях, что лучше заменить сразу, с чем можно перегнать в Москву и устранить, и что предстоит починить в перспективе. Порекомендовал сервис в Питере. Сделал все, как он сказал, машину купил-перегнал, результатом доволен. Артур, спасибо!
+              </div>
+              <div class="slider-reviews__info">
+                <div class="slider-reviews__info-text">
+                  Услуга:<span> Подбор авто до 500 т. руб</span>
+                </div>
+                <div class="slider-reviews__info-date">
+                  Дата: <span>10.02.2020</span>
+                </div>
+                <div class="slider-reviews__info-star">
+                  Оценка:
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-reviews__item-wrapper">
+          <div class="slider-reviews__item">
+            <div class="slider-reviews__img-wrapper">
+              <a href="#" class="slider-reviews__img">
+                <img src="images/dest/content/reviews.jpg" alt="">
+              </a>
+            </div>
+            <div class="slider-reviews__box">
+              <div class="slider-reviews__title">
+                Семен
+              </div>
+              <div class="slider-reviews__text">
+                Я из другого города. Нашел Skoda Octavia 2013 г. 1,6 МТ. Давно уже искал хороший вариант, но для этой марки это сложная задача. Потом нашел Артура и решил выбрать его по отзывам, которые были положительными все. В итоге авто оказался хорошим, я его купил. Но более детального описания авто по всем агрегатам я не слышал ни у кого, когда заказывал автоподборы. Я получил не только видео, фотоотчет, но и рекомендации по дальнейшей эксплуатации данного авто. Однозначно рекомендую!
+              </div>
+              <div class="slider-reviews__info">
+                <div class="slider-reviews__info-text">
+                  Услуга:<span> Подбор авто до 500 т. руб</span>
+                </div>
+                <div class="slider-reviews__info-date">
+                  Дата: <span>12.12.2019</span>
+                </div>
+                <div class="slider-reviews__info-star">
+                  Оценка:
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-reviews__item-wrapper">
+          <div class="slider-reviews__item">
+            <div class="slider-reviews__img-wrapper">
+              <a href="#" class="slider-reviews__img">
+                <img src="images/dest/content/reviews.jpg" alt="">
+              </a>
+            </div>
+            <div class="slider-reviews__box">
+              <div class="slider-reviews__title">
+                Виталик
+              </div>
+              <div class="slider-reviews__text">
+                Езжу и радуюсь автомобилю который хотел купить! Т.к авто с пробегом мучали сомнения во многих отошениях, двигатель, акпп, лкп, геометрия,ходовая и т.д.Обратился к Артуру,договорились об услуге "авто под ключ"но первый же авто прошел все проверки,было проверено все что перечислил свыше,теперь езжу с уверенностью в надежности авто.Огромное спасибо за услугу и за ценные советы по эксплуатации данного авто!!! P.S услуга "под ключ" переквалифицировалась в "разовый осмотр"! СОВЕТУЮ данного СПЕЦИАЛИСТА !!!
+              </div>
+              <div class="slider-reviews__info">
+                <div class="slider-reviews__info-text">
+                  Услуга:<span>  Разовый осмотр</span>
+                </div>
+                <div class="slider-reviews__info-date">
+                  Дата: <span>08.11.2019</span>
+                </div>
+                <div class="slider-reviews__info-star">
+                  Оценка:
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-reviews__item-wrapper">
+          <div class="slider-reviews__item">
+            <div class="slider-reviews__img-wrapper">
+              <a href="#" class="slider-reviews__img">
+                <img src="images/dest/content/reviews.jpg" alt="">
+              </a>
+            </div>
+            <div class="slider-reviews__box">
+              <div class="slider-reviews__title">
+                Игорь
+              </div>
+              <div class="slider-reviews__text">
+                Был уже нацелен на приобретение авто, но смутил пробег по автотеке и решил на всякий случай автоэксперта вызвать. Вобщем оказался пробег подтвержденным, мотор перегревали, радиатор взрывался, вобщем Артур все эти нюансы рассказал и даже не взял денег(беглый осмотр снаружи). Поэтому ему очень благодарен, можно точно рекомендовать как человека знающего свое дело на все 100%.
+              </div>
+              <div class="slider-reviews__info">
+                <div class="slider-reviews__info-text">
+                  Услуга:<span> Разовый осмотр</span>
+                </div>
+                <div class="slider-reviews__info-date">
+                  Дата: <span>18.10.2019</span>
+                </div>
+                <div class="slider-reviews__info-star">
+                  Оценка:
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="#EE152F" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M14.9607 5.75312C14.862 5.44939 14.5926 5.23435 14.2751 5.20563L9.94506 4.81251L8.2338 0.806099C8.10745 0.511752 7.81997 0.321777 7.49999 0.321777C7.18001 0.321777 6.89241 0.511752 6.76687 0.806099L5.05561 4.81251L0.72486 5.20563C0.407395 5.23492 0.138569 5.44996 0.0392325 5.75312C-0.0595317 6.05685 0.0316792 6.38999 0.27178 6.60057L3.54496 9.47068L2.57986 13.7213C2.50925 14.0339 2.63056 14.357 2.88989 14.5445C3.02928 14.6458 3.19305 14.6964 3.35739 14.6964C3.49861 14.6964 3.63995 14.6588 3.76618 14.5833L7.49999 12.3507L11.2331 14.5833C11.507 14.747 11.8513 14.732 12.1101 14.5445C12.3694 14.357 12.4907 14.0339 12.4201 13.7213L11.455 9.47068L14.7282 6.60057C14.9682 6.38999 15.0595 6.05754 14.9607 5.75312Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="15" height="15" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="contacts__container container">
+      <div class="contacts__inner">
+        <div class="contacts__info line" style="background-image: url('images/dest/content/contacts.png');">
+          <div class="contacts__phone">
+            <span>Номер телефона:</span>
+            <a href="tel:88129257997"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14" cy="14" r="14" fill="#EE152F" />
+                <path
+                  d="M12.2187 15.7824C10.7854 14.3492 10.4618 12.916 10.3888 12.3418C10.3684 12.183 10.4231 12.0238 10.5367 11.911L11.6965 10.7517C11.8671 10.5812 11.8974 10.3155 11.7695 10.111L9.92282 7.24351C9.78134 7.01705 9.49084 6.93531 9.25203 7.05478L6.28747 8.45097C6.09435 8.54606 5.98076 8.75124 6.00269 8.96538C6.15803 10.441 6.80137 14.0686 10.3663 17.6337C13.9312 21.1989 17.5583 21.842 19.0348 21.9973C19.2489 22.0192 19.4541 21.9056 19.5492 21.7125L20.9454 18.748C21.0644 18.5097 20.9832 18.22 20.7577 18.0783L17.8902 16.2321C17.6858 16.1041 17.4201 16.1342 17.2494 16.3046L16.0901 17.4644C15.9773 17.578 15.8181 17.6327 15.6593 17.6123C15.0851 17.5392 13.6519 17.2156 12.2187 15.7824Z"
+                  fill="white" />
+                <path
+                  d="M17.5238 15C17.2608 15 17.0476 14.7868 17.0476 14.5238C17.0454 12.5523 15.4477 10.9546 13.4762 10.9524C13.2132 10.9524 13 10.7392 13 10.4762C13 10.2132 13.2132 10 13.4762 10C15.9735 10.0028 17.9972 12.0265 18 14.5238C18 14.7868 17.7868 15 17.5238 15Z"
+                  fill="white" />
+                <path
+                  d="M20.4839 13.9277C20.1988 13.9277 19.9677 13.7276 19.9677 13.4808C19.9638 10.3967 17.0776 7.89735 13.5161 7.8939C13.2311 7.8939 13 7.69379 13 7.44695C13 7.20011 13.2311 7 13.5161 7C17.6475 7.00394 20.9954 9.90318 21 13.4808C21 13.5993 20.9456 13.713 20.8488 13.7968C20.752 13.8806 20.6208 13.9277 20.4839 13.9277Z"
+                  fill="white" />
+              </svg> 8(812)925-79-97</a>
+          </div>
+          <div class="contacts__mail">
+            <span>E-mail:</span>
+            <a href="mailto:km@momentpodbor.ru">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14" cy="14" r="14" fill="#EE152F" />
+                <path
+                  d="M14 6C9.58159 6 6 9.58172 6 14C6 18.4193 9.58663 22 14 22H16.6667C16.9496 22 17.2208 21.8876 17.4208 21.6876C17.621 21.4875 17.7333 21.2162 17.7333 20.9333C17.7333 20.3442 17.2557 19.8667 16.6667 19.8667H14C10.7597 19.8667 8.13334 17.2373 8.13334 14C8.13334 10.7599 10.76 8.13334 14 8.13334C17.24 8.13334 19.8667 10.7599 19.8667 14V14.5333C19.8667 15.1235 19.3874 15.6 18.8 15.6C18.2121 15.6 17.7333 15.123 17.7333 14.5333V14C17.7333 11.9395 16.0605 10.2667 14 10.2667C11.9395 10.2667 10.2667 11.9395 10.2667 14C10.2667 16.0605 11.9395 17.7333 14 17.7333C15.0301 17.7333 15.9635 17.3151 16.6395 16.6394C16.9747 16.9747 17.5949 17.7333 18.8 17.7333C20.5672 17.7333 22 16.3007 22 14.5333V14C22 9.58172 18.4184 6 14 6ZM14 15.6C13.1171 15.6 12.4 14.8831 12.4 14C12.4 13.1169 13.1171 12.4 14 12.4C14.8829 12.4 15.6 13.1169 15.6 14C15.6 14.8831 14.8829 15.6 14 15.6Z"
+                  fill="white" />
+              </svg>
+              km@momentpodbor.ru
+            </a>
+          </div>
+          <div class="contacts__addres">
+            <span>Адрес:</span>
+            <a href="https://yandex.ru/maps/2/saint-petersburg/house/ulitsa_salova_47/Z0kYdQBoTUUHQFtjfXR4cXxqYA==/?ll=30.378400%2C59.890094&z=17" target="_blank">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14" cy="14" r="14" fill="#EE152F" />
+                <path
+                  d="M14 7C10.64 7 7.90625 9.73375 7.90625 13.0937C7.90625 14.4234 8.32625 15.6869 9.12188 16.7469L13.6244 22.811C13.6356 22.8257 13.6528 22.8313 13.6653 22.8444C13.8903 23.0853 14.215 23.0247 14.3753 22.811C15.6719 21.081 18.0484 17.85 18.9622 16.6312C18.9622 16.6312 18.9625 16.6303 18.9628 16.6297L18.9684 16.6222C19.7047 15.5878 20.0938 14.3678 20.0938 13.0937C20.0938 9.73375 17.36 7 14 7ZM14 16.3812C12.1909 16.3812 10.7125 14.9028 10.7125 13.0937C10.7125 11.2847 12.1909 9.80625 14 9.80625C15.8091 9.80625 17.2875 11.2847 17.2875 13.0937C17.2875 14.9028 15.8091 16.3812 14 16.3812Z"
+                  fill="white" />
+              </svg>
+              195279, Санкт-Петербург, ул.Салова 47. литер А
+            </a>
+          </div>
+          <div class="contacts__graphick">
+            <span>Часы работы:</span>
+            <div class="contacts__graphick-text">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14" cy="14" r="14" fill="#EE152F" />
+                <path
+                  d="M14 22C9.58862 22 6 18.4114 6 14C6 9.58862 9.58862 6 14 6C18.4114 6 22 9.58862 22 14C22 18.4114 18.4114 22 14 22ZM17.8047 9.86206C17.6747 9.73206 17.504 9.66663 17.3334 9.66663C17.1627 9.66663 16.9919 9.73206 16.8621 9.86206L13.5287 13.1953C13.4033 13.3199 13.3334 13.4894 13.3334 13.6666V18C13.3334 18.3687 13.632 18.6666 14 18.6666C14.368 18.6666 14.6666 18.3687 14.6666 18V13.9426L17.8047 10.8047C18.0653 10.5439 18.0653 10.1227 17.8047 9.86206Z"
+                  fill="white" />
+              </svg>
+
+              Пн-Вс: с 10.00 до 20.00
+            </div>
+          </div>
+          <div class="contacts__social">
+            <span>Cоц. сети:</span>
+            <div>
+              <a href="#">
+                <img src="images/dest/icons/social-inst.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="images/dest/icons/social-youtube.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <form action="#" method="POST" class="form" data-subject="Автоподбор - заявка">
+          <div class="form__title">
+            Свяжитесь с нами прямо сейчас
+          </div>
+          <input type="text" class="form__input formName" placeholder="Ваше имя:" required>
+        
+          <input type="text" class="form__input formPhone" placeholder="Ваш номер телефона:" name="formPhone" required>
+          
+          <textarea class="form__textarea" placeholder="Сообщение нам:"></textarea>
+          <div class="form__text">
+            Используя эту форму, Вы соглашаетесь с хранением и обработкой Ваших данных на этом веб-сайте.
+          </div>
+          <button class="form__btn button">
+            <svg width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.04 9.96C5.416 8.338 5.05 6.715 4.967 6.065a.583.583 0 01.167-.488l1.313-1.312a.586.586 0 00.083-.726L4.44.293a.586.586 0 00-.76-.214L.324 1.66a.583.583 0 00-.322.582c.176 1.671.904 5.778 4.94 9.814 4.036 4.037 8.143 4.765 9.814 4.94a.583.583 0 00.583-.322l1.58-3.356a.586.586 0 00-.212-.758l-3.247-2.09a.586.586 0 00-.725.082l-1.313 1.313a.583.583 0 01-.487.167c-.65-.082-2.273-.449-3.896-2.072z"
+                fill="#fff" />
+              <path
+                d="M13.483 9.086a.586.586 0 01-.587-.586A4.402 4.402 0 008.5 4.104a.586.586 0 010-1.173 5.575 5.575 0 015.569 5.57.586.586 0 01-.586.585z"
+                fill="#fff" />
+              <path
+                d="M16.414 9.086a.586.586 0 01-.587-.586A7.336 7.336 0 008.5 1.172.586.586 0 118.5 0 8.51 8.51 0 0117 8.5a.586.586 0 01-.586.586z"
+                fill="#fff" />
+            </svg>
+            Перезвоните мне
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="map">
+    <div class="map__img">
+      <img src="images/dest/content/map.png" alt="">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A91bf922060f9f0cf1e8b985716b4c5ee75d98e0ae43a08d81488d5119a9550c1&amp;source=constructor" width="1200" height="512" frameborder="0"></iframe>
+    </div>
+     
+  </section>
+
+  <section class="clarification check-list">
+    <div class="clarification__container container">
+      <div class="clarification__inner">
+        <div class="clarification__text">
+          Уверены что справитесь с подбором самостоятельно?
+          <span class="clarification__sup">
+            <span>Скачайте чек- лист</span> проверки авто для самостоятельного осмотра
+          </span>
+        </div>
+        <a href="чек-лист.pdf" class="clarification__btn"  target="_blank">
+          Чек-лист <span>.pdf</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <a href="#">
+            <img src="images/dest/logo.png" alt="">
+          </a>
+        </div>
+        <div class="footer__copyright">
+          © 2021 АВТОПОДБОРСПБ КРУТЯЩИЙ МОМЕНТ
+        </div>
+        <div class="footer__author">
+          VADEV -
+          <a href="https://vadev.ru/" target ="_blank"> Разработка сайтов любой сложности</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="recall-1" class="modal-recall">
+    <div class="modal-recall__inner">
+      <div class="modal-recall__title line">
+        Перезвоните мне
+      </div>
+      <form class="modal-recall__form form" action="#" method="POST" data-subject="Автоподбор - заявка">
+        <input type="text" placeholder="Ваше имя:" class="modal-recall__input formName" required></inut>
+        <input type="text" placeholder="Ваш номер телефона:" class="modal-recall__input formPhone" required></inut>
+        <textarea placeholder="Сообщение нам:" class="modal-recall__textarea"></textarea>
+        <button class="modal-recall__btn button">
+          Перезвоните мне
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div id="recall-2" class="modal-recall">
+    <div class="modal-recall__inner form" action="#" method="POST" data-subject="Автоподбор - заявка">
+      <div class="modal-recall__title line">
+        Я хочу заказать подбор
+      </div>
+      <form class="modal-recall__form" >
+        <input type="text" placeholder="Ваше имя:" class="modal-recall__input formName" required></input>
+        <input type="text" placeholder="Ваш номер телефона:" class="modal-recall__input formPhone" required></input>
+        <textarea placeholder="Сообщение нам:" class="modal-recall__textarea"></textarea>
+        <button class="modal-recall__btn button">
+          Перезвоните мне
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div id="recall-3" class="modal-recall">
+    <div class="modal-recall__inner">
+      <div class="modal-recall__title line">
+        Заказать услугу
+      </div>
+      <form class="modal-recall__form form" action="#" method="POST" data-subject="Автоподбор - заявка">
+        <input type="text" placeholder="Ваше имя:" class="modal-recall__input formName" required></inut>
+        <input type="text" placeholder="Ваш номер телефона:" class="modal-recall__input formPhone" required></inut>
+        <textarea placeholder="Сообщение нам:" class="modal-recall__textarea"></textarea>
+        <button class="modal-recall__btn button">
+          Перезвоните мне
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div id="check" class="check">
+    <a class="top" href="#"></a>
+    <div class="check__title line">
+      Очистка VIN
+    </div>
+    <div class="check__inner">
+      <div class="check__text">Автомобиль может быть зарегистрирован лишь при условии его идентификации - соответствие идентификационного номера документам автотранспортного средства (ПТС).
+      </div>
+      <div class="check__text">Идентификационный номер автомобиля может быть подвержен коррозии и знаки маркировки перестают читаться. Соответственно, при продаже или проведении регистрационных действий, могут возникнуть осложнения.
+      </div>
+      <div class="check__text">Не спешите делать экспертизу!!!!!</div>
+      <div class="check__text">В 90% случаев нечитаемые номера VIN, двигателя, рамы, шасси подвергаются очистке и автомобиль спокойно проходит регистрацию в ГИБДД.
+      </div>
+      <div class="check__text">Очистка идентификационных номеров очень сложна и трудоемка, производится с применением специальной технологии не повреждающей структуры металла, а только удаляет образовавшийся слой ржавчины.
+      </div>
+      <div class="check__text bold">
+        <span>НИКОГДА!!!!!</span>  Не производите очистку народными средства - наждачной бумагой, карщеткой, самодельными абразивами, тем более кислотами. После таких методов очистки сотрудник ГИБДД, обнаружив признаки механического воздействия, имеет законное основание выдать направление на экспертизу.
+      </div>
+      <div class="check__text">
+        Доверьте работу по очистке идентификационных номеров профессионалам своего дела.
+      </div>
+      
+    </div>
+    <button class="check__btn button" data-fancybox data-src="#recall-1">
+      Заказать услугу
+    </button>
+  </div>
+
+  <div id="check1" class="check">
+    <a class="top" href="#"></a>
+    <div class="check__title line">
+      Прием нового автомобиля
+    </div>
+    <div class="check__inner">
+      <div class="check__text">Покупка нового автомобиля — это очень важный и серьезный шаг в жизни любого автомобилиста. 
+      </div>
+      <div class="check__text">Многие не имеют представления как выглядит процесс приемки нового автомобиля, а тем более не знают какие «подводные камни» могут выясниться уже после покупки. 
+      </div>
+      <div class="check__text">Наши эксперты знают все особенности приемки нового автомобиля и смогут помочь сохранить ваше спокойствие и уверенность в правильности действий.</div>
+      <div class="check__text">Как это выглядит?!
+      </div>
+      <div class="check__text">Нашим экспертом производится проверка:
+        <ol class="check__list-auto" type="1">
+          <li>Кузов автомобиля – ЛКП, выявление дефектов.</li>
+          <li>Уровень всех технических жидкостей.</li>
+          <li>Двигатель и ходовая.</li>
+          <li>Номера агрегатов и их соответствие с ПТС;</li>
+          <li>Работа всех систем автомобиля.</li>
+          <li>Комплектность и соответствие комплектации.</li>
+          <li>Паспорт транспортного средства.</li>
+          <li>Сервисную книжку.</li>
+          <li>Руководство по эксплуатации автомобиля.</li>
+          <li>Внештатное дополнительное оборудование.</li>
+          <li>Договор купли-продажи, акт приема-передачи.</li>
+        </ol>
+      </div>
+      <div class="check__text">
+        После такой проверки можно с уверенностью забирать ваш новенький автомобиль.
+      </div>
+    </div>
+    <button class="check__btn button" data-fancybox data-src="#recall-1">
+      Заказать услугу
+    </button>
+  </div>
+
+  <div id="check3" class="check">
+    <a class="top" href="#"></a>
+    <div class="check__title line">
+      Проверка двигателя эндоскопом
+    </div>
+    <div class="check__inner">
+      <div class="check__text">Это инструментальное исследование, позволяющее произвести осмотр цилиндропоршневой группы и клапанов не прибегая к разбору двигателя. Наша компания предлагает услугу по эндоскопированию двигателя внутреннего сгорания автомобиля <span class="check__engine-type">с бензиновым двигателем!!!!!</span> 
+      </div>
+      <div class="check__text">Эндоскопию необходимо производить при покупке автомобиля с пробегом, так как современные двигатели малоресурсны, поэтому велика вероятность «нарваться» на мотор с задирами или неисправным клапанным механизмом.
+      </div>
+      <div class="check__text">Эндоскопия производится автомобильным видеоэндоскопом новейшего поколения из Японии jProbe NT / HD 1-85-80 SF, с возможностью фото и видео фиксации процесса.</div>
+      <div class="check__text">Процедура позволяет визуально оценить состояние самых труднодосягаемых узлов и агрегатов, а именно:
+        <ol class="check__list-engine">
+          <li>Задиры на стенках цилиндров</li>
+          <li>Состояние хонинговки цилиндра («зеркало» цилиндра)</li>
+          <li>Нагар на поршнях</li>
+          <li>Нагар на клапанах</li>
+          <li>Наличие антифриза в цилиндрах</li>
+          <li>Прогар и трещины клапанов</li>
+          <li>Состояние двигателя после длительной стоянки</li>
+          <li>Другие дефекты и повреждения</li>
+        </ol>
+      </div>
+      <div class="check__text">Эндоскопия - это сложный технологический процесс, поэтому наиболее правильное выполнение в условиях автосервиса. В любом случае все обсуждается индивидуально.
+      </div>
+      <div class="check__text">
+        Стоит учитывать, что стоимость услуги для типовых рядных моторов с прямым доступом к цилиндрам, при условии, что не требуется снятие коллекторов, а так же разбор каких-либо узлов, кроме катушек и свечей зажигания.
+      </div>
+    </div>
+    <button class="check__btn button" data-fancybox data-src="#recall-1">
+      Заказать услугу
+    </button>
+  </div>
+
+  <div id="check4" class="check">
+    <a class="top" href="#"></a>
+    <div class="check__title line">
+      Эксперт на день
+    </div>
+    <div class="check__inner">
+      <div class="check__text">Услуга предоставляющая вам возможность целый день с нашим автоэкспертом  на его автомобиле осмотреть максимальное количество предварительно выбранных вами автомобилей.
+      </div>
+      <div class="check__text">Что входит в услугу:
+        <ol class="check__list-auto">
+          <li>Автоэксперт заезжает за вами на своем автомобиле в10-00 утра в пределах г. Санкт-Петербург. Рабочий день длится с 10-00 до 19-00.</li>
+          <li>За рабочий день эксперт осматривает неограниченное количество автомобилей, предварительно выбранных вами. По опыту можем сказать, что получается осмотреть около 5-7 авто в зависимости от удаленности друг от друга.</li>
+          <li>Осмотр каждого автомобиля происходит аналогично услуге разовый осмотр.</li>
+          <li>Осмотр на подъемнике в автосервисе – затраты несет наш клиент.</li>
+        </ol>
+      </div>
+      <div class="check__text">Как воспользоваться услугой:
+      </div>
+      <div class="check__text">Торг и сопровождение сделки при необходимости входит в услугу.
+        <ol class="check__list-auto">
+          <li>Оставляете заявку или звоните нам</li>
+          <li>Согласовываем дату</li>
+          <li>Оплачиваете стоимость услуги.</li>
+          <li>Вы самостоятельно выбираете автомобили, которые хотите осмотреть. Заблаговременно договариваетесь об осмотрах на выбранную дату с продавцами.</li>
+          <li>В согласованную дату и время наш автоэксперт заезжает за вами на своем автомобиле.</li>
+        </ol>
+      </div>
+    </div>
+    <button class="check__btn button" data-fancybox data-src="#recall-1">
+      Заказать услугу
+    </button>
+  </div>
+
+  <div id="check5" class="check">
+    <a class="top" href="#"></a>
+    <div class="check__title line">
+      Подбор под ключ
+    </div>
+    <div class="check__inner">
+      <div class="check__text">Подбор автомобиля под ключ - это комплексная услуга, при которой мы полностью берем на себя поиск автомобиля от момента согласования с клиентом марки и бюджета до совершения сделки купли-продажи.
+      </div>
+      <div class="check__text">Как выглядит услуга:
+        <ol class="check__list-auto">
+          <li>Совместно с вами, основываясь на ваших потребностях, нашем опыте, учитывая состояние рынка в реальном времени, определяем бюджет и критерии вашего будущего автомобиля. </li>
+          <li>Заключаем с вами Договор на оказание услуги.</li>
+          <li>Ищем подходящие варианты, отсеиваем автохлам, согласовываем с вами прошедшие проверку варианты автомобилей.</li>
+          <li>Выезжаем на осмотры, отсекаем деструктивные варианты, находим лучший образец, предоставляем отчет, рекомендуем к покупке. </li>
+          <li>Приглашаем вас на осмотр вашего будущего автомобиля. Торгуемся и обсуждаем условия сделки.</li>
+          <li>Заключаем сделку.</li>
+          <li>При необходимости наш специалист может сопроводить регистрацию в ГИБДД, это входит в стоимость услуги.</li>
+        </ol>
+      </div>
+      <div class="check__text">
+        <ol class="check__list-engine">
+          <li>Сумма договора является фиксированной – <span class="check__list-percent">мы не берем никаких процентов с торга.</span> </li>
+          <li>Консультируем и сопровождаем наших клиентов после совершения сделки.</li>
+          <li>Ищем автомобили в пределах города Санкт-Петербург и ближайшей области в радиусе 40 км от КАД</li>
+        </ol>
+      </div>
+    </div>
+    <button class="check__btn button" data-fancybox data-src="#recall-1">
+      Заказать услугу
+    </button>
+  </div>
+
+  <div id="check6" class="check">
+    <a class="top" href="#"></a>
+    <div class="check__title line">
+      Разовый осмотр
+    </div>
+    <div class="check__inner">
+      <div class="check__text">Это комплексная диагностика нашим экспертом одного выбранного вами автомобиля, перед покупкой. 
+      </div>
+      <div class="check__text">По 120 параметрам проверяется автомобиль.
+      </div>
+      <div class="check__text">Что включает в себя услуга:
+        <ol class="check__list-auto">
+         <li>Проверка документов на автомобиль, сверка номерных агрегатов, проверка статуса продавца (владелец, перекуп, доверенное лицо)</li>
+         <li>Проверка кузова автомобиля – замер ЛКП (лакокрасочного покрытия),  поиск ремонтов, скрытых повреждений, незафиксированных ДТП, проверка оригинальности остекления.</li>
+         <li>Осмотр подкапотного пространства –визуальный осмотр двигателя, навесных элементов, коробки переключения передач, системы охлаждения, ГУР и т.д., проверка состояния технических жидкостей.</li>
+         <li>Оценка салона – износ интерьера салона и ремней безопасности, поиск следов демонтажа/ремонта, проверка фактического наличия подушек безопасности (при возможности).</li>
+         <li>Проверка состояния порогов и днища автомобиля.</li>
+         <li>Оценка состояния тормозной системы –диски, колодоки, работоспособность стояночного тормоза (ручника).</li>
+         <li>Оценка состояния подвески.</li>
+         <li>Компьютерная диагностика</li>
+         <li>Тест-драйв (при возможности)</li>
+         <li>1Заключения эксперта, осматривающего автомобиль.</li>
+        </ol>
+      </div>
+      <div class="check__text">*при дистанционной работе клиент получает полный фото и видео отчет посредством мессенджеров WhatApp, Telegram.
+      </div>
+      <div class="check__text">
+        Как воспользоваться услугой:
+        <ol class="check__list-engine">
+          <li>Оставляете заявку или звоните нам.</li>
+          <li>Присылаете ссылку на объявление.</li>
+          <li>Получаете консультацию по выбранному авто (наш эксперт ознакомиться с объявлением и даст свои рекомендации – стоит смотреть авто или нет, так вполне возможно, что это может быть «серый» салон, площадка перекупов т.д.)</li>
+          <li>Согласовываем время и место осмотра – мы стараемся осматривать автомобили в день обращения</li>
+          <li>Оплачиваете услугу, согласно нашего прайса</li>
+          <li>Наш эксперт выезжает на осмотр.</li>
+        </ol>
+      </div>
+      <div class="check__text">
+        Таким образом, вы сэкономите время и сможете сделать взвешенный и правильный выбор при покупке вашего будущего автомобиля
+      </div>
+    </div>
+    <button class="check__btn button" data-fancybox data-src="#recall-1">
+      Заказать услугу
+    </button>
+  </div>
+
+
+  <div id="modal-send" class="modal-send">
+    <div class="modal-send__img">
+      <img src="images/dest/content/smile.png" alt="">
+    </div>
+    <div class="modal-send__title">
+      Cпасибо за заявку!
+    </div>
+    <div class="modal-send__text">
+      Наш менеджер уже спешит <br>
+      связаться с вами
+    </div>
+  </div>
+
+  <p class="form__error-name">Имя должно содержать не менее трёх символов <sup>*</sup> </p>
+  <p class="form__error-phone">Введите пожалуйста коректный номер телефона <sup>*</sup> </p>
+
+
+
+
+
+
+
+
+
+  
+  <!-- <script type="text/javascript" src="https://api-maps.yandex.ru/1.1/index.xml?ver=11"></script>
+  <script type="text/javascript"
+    src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=7d77caf5-9684-4ed6-9384-2b19ae18e6fe"></script> -->
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
